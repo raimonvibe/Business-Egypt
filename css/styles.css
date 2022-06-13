@@ -113,3 +113,40 @@ p {
 .footer-link:hover, .footer-link:focus {
   color: #CDDEFF;
 }
+
+
+#myBtn {
+  background: #99cff0;
+  background-image: -webkit-linear-gradient(top, #FFF7BC, #CDDEFF);
+  background-image: -moz-linear-gradient(top, #FFF7BC, #CDDEFF);
+  background-image: -ms-linear-gradient(top, #FFF7BC, #CDDEFF);
+  background-image: -o-linear-gradient(top, #FFF7BC, #CDDEFF);
+  background-image: linear-gradient(to bottom, #FFF7BC, #CDDEFF);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Noto Sans', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-left: 20px;
+  display: flex;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#myBtn:hover, #myBtn:focus {
+  background: #3cfc73;
+  background-image: -webkit-linear-gradient(top, #FFF7BC, #aaebab);
+  background-image: -moz-linear-gradient(top, #FFF7BC, #aaebab);
+  background-image: -ms-linear-gradient(top, #FFF7BC, #aaebab);
+  background-image: -o-linear-gradient(top, #FFF7BC, #aaebab);
+  background-image: linear-gradient(to bottom, #FFF7BC, #aaebab);
+  text-decoration: none;
+}
